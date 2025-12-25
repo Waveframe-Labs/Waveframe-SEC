@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://waveframelabs.org/waveframe-logo-mark.png" width="80" />
-</p>
-
 # **Symbolic Epistemic Compression (SEC)**
 ### Repository v0.0.1 — Early Research Draft
 
