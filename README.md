@@ -14,6 +14,11 @@ doi: "pending"
 
 # Glyphtrace
 
+A symbolic epistemic compression format for representing scientific artifacts as compact,
+machine-expandable semantic traces.  
+Glyphtrace enables knowledge to be referenced, reconstructed, audited, or regenerated using a
+minimal symbolic string rather than a full document.
+
 [![Waveframe Labs](https://img.shields.io/badge/WAVEFRAME%20LABS-Institutional%20Repository-FF6A00?style=flat)](https://waveframelabs.org)
 [![Governed Repository](https://img.shields.io/badge/Governance-ARI%20Compliant-8A2BE2?style=flat)](https://github.com/Waveframe-Labs/Aurora-Research-Initiative)
 [![DOI](https://img.shields.io/badge/DOI-PENDING-lightgrey.svg)](https://doi.org/placeholder)
@@ -24,28 +29,56 @@ doi: "pending"
 
 ## Purpose
 
-**Glyphtrace** is a symbolic epistemic compression framework designed to encode complex knowledge,
-claims, research artifacts, or workflows into **compact, reconstructable traces**.
+Glyphtrace is a foundational research project under Waveframe Labs focused on
+**meaning-level compression, provenance encoding, and epistemic traceability**.
 
-This repository serves as the **home specification, documentation, and reference implementation**
-of the Glyphtrace standard.
+Goal:
+> Represent a full research artifact as a short symbolic string that can be expanded back into
+> the original idea, workflow, or document using deterministic rules and tooling.
+
+This repository will evolve into:
+
+- The **Glyphtrace Specification**
+- Syntax rules, grammar, and encoding guidelines
+- Example traces + round-trip demonstrations
+- Converter experiments and reconstruction prototypes
+- Standardization pathway under Waveframe governance
 
 ---
 
 ## Status
 
-`v0.0.1` — Initial scaffolding  
-Repository is in **early conceptual development**. Contents subject to structural evolution.
+`v0.0.1 — Initial scaffolding`
+
+This is an exploratory research phase.  
+Specification, examples, and tooling will develop incrementally.
 
 ---
 
-## Roadmap
+## Directory Overview
 
-- [ ] Establish core concept documentation (`/docs/`)
-- [ ] Create trace grammar & symbolic schema
-- [ ] Define example trace patterns (`/examples/`)
-- [ ] Introduce converter concept prototype
-- [ ] Governance alignment check for future standardization
+```
+Glyphtrace/
+├── README.md
+├── LICENSE
+├── CITATION.cff
+├── CHANGELOG.md
+├── docs/
+│ └── GLYPHTRACE_CONCEPT.md
+├── examples/
+│ └── example_traces.md
+└── GLYPHTRACE_SPEC_DRAFT.md
+```
+
+---
+
+## Roadmap (High-Level)
+
+- Establish core documentation foundation
+- Formalize trace syntax & symbol grammar
+- Expand examples and round-trip demos
+- Build converter prototype for encoding/decoding
+- Position for future standardization across Waveframe Labs
 
 ---
 
