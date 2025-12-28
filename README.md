@@ -12,6 +12,10 @@ ai_assistance_details: "Draft structure and metadata generated with AI assistanc
 doi: "10.5281/zenodo.18057686"  
 ---
 
+<p align="center">
+  <img src="figures/Glyphtrace-banner.png" alt="Glyphtrace Banner" width="100%">
+</p>
+
 # Glyphtrace
 
 A symbolic epistemic compression format for representing scientific artifacts as compact,
